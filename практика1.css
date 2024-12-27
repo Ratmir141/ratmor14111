@@ -1,0 +1,103 @@
+body { 
+  font-family: Arial, sans-serif; 
+  background: linear-gradient(to right, #000000, #969292);
+  color: white; 
+  text-align: center; 
+  margin: 0; 
+  padding: 0; 
+} 
+ 
+header { 
+  background: #333030;  
+  padding: 20px 0; 
+  text-align: center; 
+} 
+ 
+h1 { 
+  margin: 0; 
+  color: white; 
+  font-size: 2.5em; 
+} 
+ 
+main { 
+  padding: 20px; 
+} 
+ 
+section { 
+  margin-bottom: 20px; 
+} 
+ 
+#categories { 
+  display: flex; 
+  justify-content: center; 
+  gap: 20px; 
+} 
+ 
+.category button { 
+  background-color: #000000; 
+  color: white; 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+} 
+ 
+.category button:hover { 
+  background-color: #363030;  
+} 
+ 
+#items { 
+  display: grid; 
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+  gap: 20px; 
+} 
+ 
+.item { 
+  background-color: #3d4144; 
+  border-radius: 10px; 
+  padding: 20px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  transition: background-color 0.3s ease;  
+} 
+ 
+.item:hover { 
+  background-color: #242222; 
+} 
+ 
+.item h3 { 
+  margin: 0; 
+  color: white; 
+  transition: color 0.3s ease; 
+  cursor: pointer; 
+} 
+ 
+.item:hover h3 { 
+  color: rgb(255, 255, 255); 
+} 
+ 
+.item p { 
+  color: #ccc; 
+  transition: color 0.3s ease;  
+  cursor: pointer;  
+} 
+ 
+.item:hover p { 
+  color: rgb(255, 255, 255); 
+} 
+ 
+.item button { 
+  background-color: transparent; 
+  color: white; 
+  padding: 8px 15px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  margin-bottom: 10px; 
+  transition: background-color 0.3s ease, color 0.3s ease; 
+} 
+ 
+.item button:hover { 
+  background-color: rgba(255, 255, 255, 0.1); 
+  color: #4568dc; 
+}
